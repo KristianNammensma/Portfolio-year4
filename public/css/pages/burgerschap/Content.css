@@ -1,0 +1,175 @@
+p
+{
+    font-family: gilroy;
+    padding: 0;
+    margin: 0;
+}
+
+h1
+{
+    font-size: 4vw;
+    letter-spacing: .5vw;
+}
+
+
+/* About me */
+
+.aboutMe-info
+{
+    background-color: rgb(247, 245, 245);
+}
+
+.aboutMe-img
+{
+    height: 60vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.image
+{
+    width: 100vw;
+    height: 50vh;
+    /* display
+    jus */
+    
+}
+
+
+/* Projects */
+
+
+.projects
+{
+    margin-top: 15vh;
+}
+
+
+
+.project-cards
+{
+    margin-top: 5vw;
+}
+
+.card
+{
+    border: none;
+    border-radius: 1.2vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.frontend-img
+{
+    width: 100%;
+}
+
+
+
+/* Recent Project */
+
+.recentProject-cards
+{
+    margin-top: 10vh;
+}   
+
+
+.recentProjects-p
+{
+    letter-spacing: .5vw;
+}
+
+.recent-img
+{
+    height: 60vh;
+}
+
+
+/* cv */
+
+.imageContainer
+{
+    overflow: hidden;
+}
+
+.cv-image
+{
+    border-radius: .5vw;
+    width: 25vw;
+    height: 60vh;
+}
+
+.imageHover
+{
+    top: -100%;
+    transition: .5s;
+}
+
+.imageHover::after
+{
+    content: '';
+    position: absolute;
+    background-color: rgb(31, 30, 30);
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+
+.hoverButton
+{
+    /* transition: .3s; */
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s; /* Transition for background color */
+}
+
+.hoverButton:hover
+{
+    background-color: rgb(207, 211, 190);
+}
+
+.hoverButton-p
+{
+    padding-left: 0px;
+}
+
+.hoverButton-p::before {
+    content: '→';
+    position: absolute;
+    left: -20px;
+    opacity: 0; 
+    transition: all 0.5s ease-in-out; 
+}
+
+.hoverButton:hover .hoverButton-p::before {
+    left: 0px; /* Move the arrow into view */
+    opacity: 1; /* Fade in */
+}
+
+.imageContainer:hover .imageHover
+{
+    top: 0;
+}
+
+
+@media (max-width: 767px) {
+
+    .header-txt {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    .header-img
+    {
+        width: 100%;
+    }
+    .header-img img {
+        max-width: 100%;
+        height: auto;
+    }
+}

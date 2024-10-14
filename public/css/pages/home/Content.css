@@ -1,0 +1,232 @@
+
+
+h1
+{
+    font-size: 4vw;
+    letter-spacing: .5vw;
+}
+
+.home-header
+{
+    background-image: url('../../image/homeBackground.jpg');
+    background-size: cover;
+}
+
+.home-header::after
+{
+    content: '';
+    position: absolute;
+    background-color: rgb(31, 30, 30);
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 1;
+
+}
+
+.home-header-info
+{
+    padding-left: 5vw;
+}
+
+
+
+.home-header-sd
+{
+    letter-spacing: 1vw;
+    color: rgb(255, 200, 0);
+    font-weight: bold;
+}
+
+.home-header-text
+{ 
+    width: 35vw;
+    font-size: 1vw;
+}
+
+
+/* About me */
+
+.aboutMe-info
+{
+    background-color: rgb(247, 245, 245);
+}
+
+.aboutMe-img
+{
+    height: 60vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.image
+{
+    width: 100vw;
+    height: 50vh;
+    /* display
+    jus */
+    
+}
+
+
+/* Projects */
+
+
+.project-cards
+{
+    margin-top: 5vw;
+}
+
+.card
+{
+    border: none;
+    border-radius: 1.2vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 5px 5px 5px 5px;
+}
+
+
+.frontend-img
+{
+    width: 100%;
+}
+
+
+
+/* Recent Project */
+
+.recentProject-cards
+{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}   
+
+
+.recentProjects-p
+{
+    letter-spacing: .5vw;
+}
+
+.recent-img
+{
+    height: 60vh;
+}
+
+
+/* cv */
+
+.imageContainer
+{
+    overflow: hidden;
+}
+
+.cv-image
+{
+    border-radius: .5vw;
+    width: 25vw;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.imageHover
+{
+    top: -100%;
+    background-color: rgba(31, 30, 30, 0.5);
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.imageHover::after
+{
+    content: '';
+    position: absolute;
+    background-color: rgb(31, 30, 30);
+    opacity: 0.5                ;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+
+.hoverButton
+{
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    z-index: 2;
+    transition: background-color 0.3s;/* Transition for background color */
+}
+
+.hoverButton:hover
+{
+    background-color: rgb(207, 211, 190);
+}
+
+.hoverButton-p
+{
+    font-size: 3vw;
+}
+
+.hoverButton-p::before {
+    content: 'More';
+    position: absolute;
+    left: -20px;
+    top: 5vh;
+    opacity: 0; 
+    transition: all 0.5s ease-in-out; 
+}
+
+.hoverButton:hover .hoverButton-p::before {
+    left: 2vw; /* Move the arrow into view */
+    opacity: 1; /* Fade in */
+}
+
+.imageContainer:hover .imageHover
+{
+    top: 0;
+}
+
+
+.swiper-slide-shadow {
+    opacity: 0 !important;
+}
+
+
+@media (max-width: 767px) {
+
+
+    .header-txt {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    .header-img
+    {
+        width: 100%;
+    }
+    .header-img img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .hoverButton-p
+    {
+        font-size: 14vw;
+    }
+
+    .hoverButton:hover .hoverButton-p::before {
+        left: -10vw; /* Move the arrow into view */
+        opacity: 1; /* Fade in */
+    }
+
+    .lightbulb-img
+    {
+        display: none;
+    }
+}

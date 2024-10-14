@@ -1,0 +1,34 @@
+.frontend-header
+{
+    background-image: url('../../image/frontendBackground.jpg');
+    background-size: cover;
+}
+
+.frontend-header::after
+{
+    content: '';
+    position: absolute;
+    background-color: rgb(31, 30, 30);
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 1;
+
+}
+
+.frontend-header-info
+{
+    padding-right: 15vw;
+}
+
+.frontend-header-sd
+{
+    letter-spacing: 1vw;
+    color: rgb(255, 200, 0);
+    font-weight: bold;
+    font-family: MOON;
+}
+

@@ -1,0 +1,67 @@
+
+
+header
+{
+    width: 100vw;
+    height: 100vh;
+    font-family: MOON;
+    z-index: 10;
+}
+
+#header_info
+{
+    border: solid rgb(32, 32, 32);
+    border-radius: 0vw 0vw 1vw 1vw;  
+    height: 7.5vh;
+    background-color: rgb(32, 32, 32);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 1s;
+}
+
+#account
+{
+    width: 100vw;
+}
+
+.header-txt
+{
+    margin-top: 10vh;
+}
+
+.portfolio-p
+{
+    font-size: 1.2vw;
+    letter-spacing: .5vw;
+    font-weight: bold;
+}
+
+.portfolio-h1
+{
+    font-size: 4.5vw;
+}
+
+
+.scroll-down
+{
+    width: 2vw;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .portfolio-p
+    {
+        font-size: 5vw;
+    }
+    .portfolio-h1
+    {
+        font-size: 10vw;
+    }
+    .scroll-down
+    {
+        width: 5vw;
+    }
+
+}
+
+
+/* 39 */

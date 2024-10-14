@@ -1,0 +1,152 @@
+@font-face {
+    font-family: gilroy;
+    src: url(../fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: MOON;
+    src: url(../fonts/Moon_Light.otf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+p
+{
+    font-family: Montserrat;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    overflow-x: hidden;
+    font-family: MOON;
+}
+
+.selected
+{
+    border-bottom: solid white;
+}
+
+
+/* Buttons */
+.btn
+{
+    background-color: rgb(216, 220, 200);
+    width: 12vw;
+}
+
+.onBtn {
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem 1rem; 
+}
+
+/* Hover state for buttons */
+.onBtn:hover {
+    background-color:  rgb(237, 240, 222);
+}
+
+/* Pseudo-elements for arrow and text */
+.onBtn .onBtn-p::before {
+    content: var(--arrow, '↓'); /* Default arrow */
+    position: absolute;
+    width: 100%;
+    top: var(--before-top, -25vw); /* Customizable value */
+    left: 0; /* Customizable value */
+    transition: all 0.5s ease-in-out;
+}
+
+.onBtn .onBtn-p::after {
+    content: var(--after-content, 'more'); /* Default text */
+    position: relative;
+    top: var(--after-top, 0); /* Customizable value */
+    transition: all 0.5s ease-in-out;
+}
+
+/* Change positions on hover */
+.onBtn:hover .onBtn-p::before {
+    top: var(--before-top-hover, .4vw); /* Customizable hover value */
+}
+
+.onBtn:hover .onBtn-p::after {
+    top: var(--after-top-hover, 25vw); /* Customizable hover value */
+}
+
+
+
+
+/* Images */
+.recent-img
+{
+    height: 45vh;
+    width: 40vw;
+}
+
+.boxShadow-img
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+}
+
+.animate-image {
+    animation: moveUpDown 2s ease-in-out infinite; 
+}
+
+
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0); /* Initial position */
+    }
+    50% {
+        transform: translateY(-20px); /* Move image 20px up */
+    }
+    100% {
+        transform: translateY(0); /* Return to initial position */
+    }
+}
+
+
+
+/* text */
+
+.hide-scroll-fade
+{
+    opacity: 0;
+}
+
+.scroll-up {
+    transform: translate(0, 1em);
+}
+
+.scroll-right {
+    transform: translate(1em, 0);
+}
+
+.scroll-down {
+    transform: translate(0, -1em);
+}
+
+.scroll-left {
+    transform: translate(-1em, 0);
+}
+
+.fade-in-scroll-fade
+{
+    transition: .5s;
+    opacity: 1;
+    transform: translate(0);
+}
+
+@media only screen and (max-width: 767px) {
+    .recent-img
+    {
+        height: 20vh;
+    }
+
+}

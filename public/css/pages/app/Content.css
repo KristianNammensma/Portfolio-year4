@@ -1,0 +1,41 @@
+.app-header
+{
+    background-image: url('../../image/appBackground.jpg');
+    background-size: cover;
+}
+
+.app-header::after
+{
+    content: '';
+    position: absolute;
+    background-color: rgb(31, 30, 30);
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 1;
+
+}
+
+.app-header-info
+{
+    padding-left: 5vw;
+}
+
+
+.app-header-sd
+{
+    letter-spacing: 1vw;
+    color: rgb(255, 200, 0);
+    font-weight: bold;
+    font-family: MOON;
+}
+
+.app-header-text
+{
+    margin-top: 5vh;   
+    width: 35vw;
+    font-size: 1vw;
+}

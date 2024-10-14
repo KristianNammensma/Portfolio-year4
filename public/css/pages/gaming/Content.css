@@ -1,0 +1,47 @@
+.gaming-header
+{
+    background-image: url('../../image/gamingBackground.jpg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+.gaming-header::after
+{
+    content: '';
+    position: absolute;
+    background-color: rgb(31, 30, 30);
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 1;
+
+}
+
+.gaming-header-info
+{
+    padding-left: 5vw;
+}
+
+.gaming-header-info h1
+{
+    font-size: 4vw;
+    width: 10vw;
+}
+
+.gaming-header-sd
+{
+    letter-spacing: 1vw;
+    color: rgb(255, 200, 0);
+    font-weight: bold;
+    font-family: MOON;
+}
+
+.gaming-header-text
+{
+    margin-top: 5vh;   
+    width: 35vw;
+    font-size: 1vw;
+}
