@@ -12,7 +12,7 @@
 
 
 
-    <div id="header_info" class="d-flex justify-content-center  align-items-center col-12 col-lg-6 flex-grow-0 text-white position-absolute  top-0 z-3" bis_skin_checked="1" style="bottom: 0px;">
+    <div id="header_info" class="d-flex justify-content-center  align-items-center col-8 col-lg-6 flex-grow-0 text-white position-absolute  top-0 z-3" bis_skin_checked="1" style="bottom: 0px;">
 
         <div id="account" class="d-flex justify-content-between align-items-center flex-grow-0 w-75" bis_skin_checked="1">
             <div bis_skin_checked="1">
@@ -56,7 +56,7 @@
 
     <div class="target-section m-0 p-0">
         <section class="w-100 h-100 position-relative p-5 d-flex flex-column justify-content-between">
-            <div class="w-100 overflow-hidden header-txt col-4 d-flex justify-content-start flex-column p-2 ps-5 ms-5">
+            <div class="w-100 overflow-hidden header-txt col-4 d-flex justify-content-start flex-column p-2 ps-lg-5 ms-lg-5">
                 <p class="text-danger portfolio-p scroll-fade scroll-up">Project</p>
                 <h1 class="fw-bold portfolio-h1 scroll-fade scroll-up">Hoveniers</h1>
             </div>
@@ -77,7 +77,7 @@
         </section>
 
         <section class="w-100 h-100 position-relative p-5 d-flex flex-column justify-content-between">
-            <div class="header-txt col-12 d-flex justify-content-end flex-column p-2 pe-5 me-5">
+            <div class="header-txt col-12 d-flex justify-content-end flex-column p-2 pe-lg-5 me-lg-5">
                 <p class="text-end text-danger portfolio-p scroll-fade scroll-up">Project</p>
                 <h1 class="text-end fw-bold portfolio-h1 scroll-fade scroll-up">Poster Winkel</h1> 
             </div>
@@ -99,7 +99,7 @@
         </section>
 
         <section class="w-100 h-100 position-relative p-5 d-flex flex-column justify-content-between">
-            <div class="overflow-hidden header-txt col-lg-4 col-12 d-flex justify-content-start flex-column p-2 ps-5 ms-5">
+            <div class="overflow-hidden header-txt col-lg-4 col-12 d-flex justify-content-start flex-column p-2 ps-lg-5 ms-lg-5">
                 <p class="text-danger portfolio-p scroll-fade scroll-up">Project</p>
                 <h1 class="fw-bold portfolio-h1 scroll-fade scroll-up">FazWatch</h1>
             </div>
@@ -120,7 +120,7 @@
         </section>
 
         
-        <section class="w-100 h-100 position-relative p-5 d-flex flex-column justify-content-between">
+        <section class="w-100 h-100 position-relative d-flex flex-column justify-content-between">
             <section class="recentProject-cards d-flex flex-row justify-content-evenly align-items-center">
                 <div class="p-5 m-5 w-100 d-flex justify-content-evenly align-items-center">
                     <a href="https://www.linkedin.com/in/kristian-nammensma-912971229/" target="_blank" class="text-decoration-none text-reset">

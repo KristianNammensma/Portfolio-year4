@@ -64,7 +64,7 @@
 
         
 
-        <section class="swiper-card  project-cards  d-flex flex-row justify-content-center align-items-center w-100">
+        <section class="swiper-card  project-cards  d-flex flex-row justify-content-center align-items-center w-100 overflow-hidden">
             <div class="swiper-wrapper w-100">
                 @foreach ($cards as $card)
                 <div class="swiper-slide w-100 d-flex justify-content-center align-items-start">
@@ -77,8 +77,8 @@
                             <img class="frontend-img" src="{{ $card['image'] }}" alt="{{ $card['title'] }}">
                         </div>
             
-                        <div class="m-4">
-                            <button wire:click="route('{{ $card['title'] }}')" class="btn d-flex align-items-center justify-content-center p-2">
+                        <div class="m-4 col-6 col-lg-4">
+                            <button wire:click="route('{{ $card['title'] }}')" class="w-100 btn d-flex align-items-center justify-content-center p-2">
                                 <p>View More -></p>
                             </button>
                         </div>

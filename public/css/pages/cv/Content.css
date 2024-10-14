@@ -51,7 +51,7 @@
 @media only screen and (max-width: 767px) {
     .cv-header-text
     { 
-        width: 50vw;
-        font-size: 2vw;
+        width: 80vw;
+        font-size: 5vw;
     }
 }

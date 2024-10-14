@@ -7,7 +7,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-10 mt-5">
+            <div class="col-lg-4 col-8 mt-5">
                 <p class="fs-5">{{ $skill['description'] }}</p>
                 <p>{{ $skill['timeLine']}}</p>
             </div>

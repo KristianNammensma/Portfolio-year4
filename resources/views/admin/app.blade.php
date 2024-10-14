@@ -11,7 +11,7 @@
 @section('header')
 
 
-    <div id="header_info" class="d-flex justify-content-center  align-items-center col-12 col-lg-6 flex-grow-0 text-white position-absolute  top-0 z-3" bis_skin_checked="1" style="bottom: 0px;">
+    <div id="header_info" class="d-flex justify-content-center  align-items-center col-8 col-lg-6 flex-grow-0 text-white position-absolute  top-0 z-3" bis_skin_checked="1" style="bottom: 0px;">
 
         <div id="account" class="d-flex justify-content-between align-items-center flex-grow-0 w-75" bis_skin_checked="1">
             <div bis_skin_checked="1">
@@ -94,11 +94,7 @@
 
 
         
-        <section class="w-100 h-100 position-relative p-5 d-flex flex-column justify-content-between">
-            {{-- <div class="header-txt col-12 d-flex justify-content-center flex-column p-2 pe-5 me-5">
-                <p class="text-center text-danger portfolio-p">Contact</p>
-            </div> --}}
-    
+        <section class="w-100 h-100 position-relative d-flex flex-column justify-content-between">  
             <section class="recentProject-cards d-flex flex-row justify-content-evenly align-items-center">
                 <div class="p-5 m-5 w-100 d-flex justify-content-evenly align-items-center">
                     <a href="https://www.linkedin.com/in/kristian-nammensma-912971229/" target="_blank" class="text-decoration-none text-reset">

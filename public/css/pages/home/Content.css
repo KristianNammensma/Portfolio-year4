@@ -205,6 +205,12 @@ h1
         padding-left: 2rem !important;
         padding-right: 2rem !important;
     }
+
+    .home-header-text
+    { 
+        width: 90vw;
+        font-size: 5vw;
+    }
     .header-img
     {
         width: 100%;

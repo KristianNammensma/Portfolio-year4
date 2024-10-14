@@ -13,6 +13,8 @@
     src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
 
+
+
 p
 {
     font-family: Montserrat;
@@ -149,4 +151,8 @@ body
         height: 20vh;
     }
 
+    embed
+    {
+        width: 100vw;
+    }
 }
